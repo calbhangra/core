@@ -1,11 +1,16 @@
-# Goals
+# Cal Bhangra
+
+## Links
+- [Getting Started]()
+
+## Goals
 To develop a full-featured team management application.
 
 The app should:
-- make common team tasks **easier**, not harder; else *no one* will use it
+- make common team tasks **easier**, not harder; else **no one** will use it
 - be fully responsive as it will mostly be used on mobile devices
 - eliminate the need to login to the Cal Bhangra google account unless absolutely necessary
-- utilize new technologies such as ServiceWorkers & WebWorkers to make the user experience better
+- utilize new technologies such as ServiceWorkers & WebWorkers to facilitate a better user experience 
 - emulate a native app experience as close as possible be using "pinned web app" features
     - [Andriod](https://developer.chrome.com/multidevice/android/installtohomescreen)  
     - [iOS](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
@@ -13,14 +18,14 @@ The app should:
     - [Google Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/)
 - follow Google's web development [best practices](https://developers.google.com/web/#follow-best-practices)
 - have an automatic deployment process from commit to test to actual deployment to server
-- follow best practices and have tests, aim to keep code coverage about 95%
+- follow best practices and write tests for all code, aim to keep code coverage about 95%
 
 ## Feature List
 - allow for management of gigs
     - any user should be able to "create" a gig
     - all users should be able to respond yes or no to whether they can do the gig
     - owner of the gig should be able to send push notifications to users who have not responded
-    - non team members should be 
+    - non team members should be able to request gigs,if team accepts allow online contract signing 
     - **Discuss:** integrate with Venmo for automatic payments?
 - integrate with Google Drive to allow for scoped sharing of files
     - user should be able to upload file and then share with a subset or all of the team members
